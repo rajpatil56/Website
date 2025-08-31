@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Savanna Seekers Consulting</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a2e0e6ad1c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Savanna <span>Seekers</span></div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#book">Booking</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Shaping Your Future with Confidence</h1>
+      <p>Interview Preparation • Education Consulting • Internship Guidance</p>
+      <a href="#book" class="btn">Book Your Slot</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <div class="about-box">
+      <div class="about-text">
+        <p>
+          <strong>Savanna Seekers Consulting</strong> helps students & professionals 
+          grow through career mentoring, interview preparation and education counseling.  
+          We ensure you step into the future with clarity and confidence.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services" id="services">
+    <h2>Our Services</h2>
+    <div class="service-grid">
+      <div class="service-card">
+        <i class="fas fa-user-tie"></i>
+        <h3>Interview Preparation</h3>
+        <p>Mock interviews & feedback sessions to boost your confidence.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-graduation-cap"></i>
+        <h3>Education Consulting</h3>
+        <p>Personalized career guidance for academic excellence.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-briefcase"></i>
+        <h3>Internship Guidance</h3>
+        <p>Connect with the right opportunities and skill-building programs.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking -->
+  <section class="book" id="book">
+    <h2>Book Your Slot</h2>
+    <form id="bookingForm" method="POST">
+      <input type="text" NAME="Name" placeholder="Your Name" required>
+      <input type="email" NAME="Email" placeholder="Your Email" required>
+      <input type="date" NAME="Date" required>
+      <select NAME="Service" required>
+        <option value="">Select Service</option>
+        <option>Interview Preparation</option>
+        <option>Education Consulting</option>
+        <option>Internship Guidance</option>
+      </select>
+      <input type="text" NAME="Contact" placeholder="Your Contact Number" required>
+      <textarea NAME="Message" placeholder="Your Message"></textarea>
+      <button type="submit">Book Now</button>
+    </form>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-grid">
+      <div>
+        <i class="fas fa-envelope"></i>
+        <p>sukritiporwal18@gmail.com</p>
+      </div>
+      <div>
+        <i class="fas fa-phone"></i>
+        <p>+91 9580790025</p>
+      </div>
+      <div>
+        <i class="fas fa-map-marker-alt"></i>
+        <p>India</p>
+      </div>
+    </div>
+
+    <form id="contactForm" method="POST">
+      <input type="text" NAME="Name" placeholder="Your Name" required>
+      <input type="email" NAME="Email" placeholder="Your Email" required>
+      <textarea NAME="Message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Savanna Seekers Consulting</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
